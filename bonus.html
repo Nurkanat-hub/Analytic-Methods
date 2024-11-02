@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bonuses</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-brand">Josephus Casino</div>
+    <ul class="navbar-links">
+      <li><a href="Home.html">Game</a></li>
+      <li><a href="Profile.html">Profile</a></li>
+      <li><a href="history.html">History</a></li>
+      <li><a href="bonus.html">Bonuses</a></li>
+    </ul>
+  </nav>
+
+  <div class="container bonus-container">
+    <header>
+        <h1>Bonuses</h1>
+    </header>
+    
+    <p id="balanceMessage">Your current balance: $<span id="balanceAmount">0</span></p>
+    <button onclick="claimBonus()">Claim Daily Bonus</button>
+    <p id="bonusMessage"></p>
+</div>
+
+
+  <script src="bonus.js"></script>
+</body>
+</html>
